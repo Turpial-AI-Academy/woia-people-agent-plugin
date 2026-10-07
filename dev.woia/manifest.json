@@ -1,0 +1,14 @@
+{
+  "schema": "dev.woia.department-orchestrator/v1",
+  "version": "0.5.0",
+  "department": "people",
+  "execution_model": "people-methodology",
+  "requires_plugins": [
+    {
+      "name": "woia-core",
+      "minimum_version": "0.5.3"
+    }
+  ],
+  "contracts_directory": "skills/woia-people/references",
+  "authoring_profile": "thin"
+}

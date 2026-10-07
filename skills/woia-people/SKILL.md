@@ -1,55 +1,27 @@
 ---
 name: woia-people
-description: Coordinate sourced workforce preparation and continuous role-aware guidance without granting authority
+description: Coordinate workforce preparation, role changes, continuous approved guidance and accountable coverage without granting authority or access.
 license: MIT
 ---
 
-# woia-people
+# People coordination
 
-## Operating flow
+Generic People root: one selected organization/department/Project root, never one agent per employee or question. Core v0.5.3 owns Tasks, Due Work, Effects/receipts and receiver-owned contributions.
 
-~~~text
-DISCOVER -> DECIDE -> IMPLEMENT -> VALIDATE -> REPORT
-~~~
+## Five-part method
 
-## Purpose
+1. Resolve sourced scoped workforce context over shared Person identity: role, responsibility, accepted competence evidence, availability and coverage. Authenticate independently from name/phone matching; filter fields before retrieval/model processing. Reported data is not accepted truth.
+2. Coordinate accepted joining, role-change and leaving decisions with scope/conditions/period. People prepares and preserves continuity; Technology applies/revokes access and provides observed evidence. Departments retain work and accept transfers. Request, account, applied access and readiness differ.
+3. Prepare practical onboarding from actual work and current approved procedures. Record procedure version and attributable activity/evidence. Reading, attendance and exercise completion do not confer competence, certification or authority. Never invent scores/thresholds. Refresh only affected work.
+4. Provide continuous role-aware guidance from approved Organization Knowledge. Explain real surfaces and owners without copying the corpus or becoming another department/mandatory intermediary. Simple help needs no Task; distinct contributions use Core correlation and receiver-owned acceptance.
+5. Coordinate coverage using accepted competence, current authority, period, owning department acceptance and independent review. A gap is not filled coverage. Preserve obligations through Due Work without another scheduler.
 
-Generic People department coordination over shared identity, workforce and approved knowledge
+## Guards and completion
 
-## Minimum sufficient evidence
+Load [People contract](references/people-contract.md) for workforce/access/recipient/continuity decisions. Use [request schema](references/people-request.schema.json) with [planning guard](scripts/people-plan.mjs) for deterministic planning. The helper executes no external effects or retrieval and grants no authority.
 
-Use a bounded path when an authoritative existing artifact/evidence set is healthy and the requested change is local and understood:
+Identity owns Person/Organization; Workforce owns contextual employee/assignment/competence/coverage. Knowledge retains canonical procedures, Technology technical access. People does not duplicate those masters or issue permissions. Ordinary scoped reads need no Data handoff; genuine source/identity/governance problems do.
 
-1. identify the artifact/evidence, source candidate, and affected surface;
-2. load only supporting context and references needed for that surface;
-3. amend or re-evaluate the smallest coherent unit;
-4. verify affected behavior plus mandatory cross-cutting invariants;
-5. preserve unrelated valid artifacts/evidence and report what changed.
+Internal Communications requires authenticated authorized staff acting internally. Prospective/former staff or employees in an external role remain external recipients: Customer Service alone executes permitted external contact and scheduling. Do not bypass via Documents. No payroll, recruiting system, policy, salary, leave or retention values are selected.
 
-Use the deep path for a new artifact, unclear scope or contradictory evidence, public API/event/schema changes, persisted data/migrations, authentication/authorization/secrets/signing/trust boundaries, deployment/rollback/availability risk, cross-provider dependency restructuring, unhealthy or unfamiliar conventions, missing durable required evidence, or a failed invariant that invalidates reused evidence. Load the references/checklists needed by those triggers and retain all required safety validation.
-
-## Discover
-
-Inspect actual repository/system state before changing it. Locate authoritative artifacts/evidence and identify affected standards, constraints, supported platforms, integrations, and user requirements. Expand context when a dependency, uncertainty, or deep-path trigger requires it.
-
-## Decide
-
-Select the smallest strategy that satisfies the capability. Preserve healthy existing standards. Do not infer policy from the author's workspace.
-
-## Implement
-
-Apply only authorized changes. Keep domain semantics independent from unrelated tooling.
-
-## Validate
-
-Run capability-appropriate checks and verify changed state. Reuse evidence only when it is durable, inspectable evidence of actual execution/observation with an identifiable candidate, checked surface, relevant inputs/environment, and outcome. Independently establish that it satisfies the gate being owned; prose claims or recollection are not execution evidence.
-
-A later mutation invalidates the checks whose coverage or inputs it affects. Rerun those checks and mandatory related invariants; preserve unaffected valid evidence. Reuse expensive runtime verification across an unchanged candidate and relevant environment. A new turn/session alone does not invalidate evidence. Execute or observe relevant checks when required evidence cannot be inspected or established. Skipped/unavailable checks are not PASS.
-
-## Report
-
-Report current state, source candidate, affected surface, decisions, changes, and exact usage/maintenance commands. Distinguish reusable evidence, invalidated evidence, freshly established evidence, and assumptions/inferences that are not evidence. Include remaining risks and uncertainties.
-
-## Detailed references
-
-Add focused files under `references/` only when more detail is needed and give each reference a concrete scope/risk/ambiguity load trigger. Load triggered safety references; a bounded amendment does not require every reference or full template replay. Add scripts/assets only when they materially improve deterministic execution.
+Unknown effects: retain and reconcile before retry. Historical snapshots never revive revoked powers. Exercises do not authorize live money/messages. Missing machine transport/configuration is an owned blocker, never manual-relay PASS. Acknowledgment is not completion and senders never edit receiver Tasks. Close only the fulfilled People contribution with competent acceptance and observed evidence. Runtime qualification, Operator E2E and Production Ready remain NOT_RUN/false.
