@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "People scoped contribution planning input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "method",
+    "actor",
+    "person_ref",
+    "scope",
+    "correlation_id",
+    "authority",
+    "source",
+    "fields",
+    "allowed_fields"
+  ],
+  "properties": {
+    "method": {
+      "type": "string",
+      "enum": [
+        "context",
+        "joining",
+        "assignment",
+        "leaving",
+        "preparation",
+        "guidance",
+        "coverage",
+        "internal"
+      ]
+    },
+    "actor": {
+      "type": "object"
+    },
+    "person_ref": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "source": {
+      "type": "object"
+    },
+    "fields": {
+      "type": "array"
+    },
+    "allowed_fields": {
+      "type": "array"
+    },
+    "decision_ref": {
+      "type": "string"
+    },
+    "procedure_version": {
+      "type": "string"
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "recipient": {
+      "type": "object"
+    },
+    "effect_status": {
+      "type": "string"
+    },
+    "period_ref": {
+      "type": "string"
+    }
+  }
+}
