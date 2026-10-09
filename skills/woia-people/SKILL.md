@@ -6,7 +6,7 @@ license: MIT
 
 # People coordination
 
-Generic People root: one selected organization/department/Project root, never one agent per employee or question. Core v0.5.6 owns Tasks, Due Work, Effects/receipts and receiver-owned contributions.
+Generic People root: one selected organization/department/Project root, never one agent per employee or question. Core v0.5.7 owns Tasks, Due Work, Effects/receipts and receiver-owned contributions.
 
 ## Five-part method
 

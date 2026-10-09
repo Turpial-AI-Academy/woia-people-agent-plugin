@@ -1,6 +1,6 @@
-# WOIA People v0.5.6
+# WOIA People v0.5.7
 
-Generic department orchestration of workforce context, joining/leaving continuity, practical onboarding, continuous role-aware guidance and accountable coverage. Core >=0.5.6 is required; no Real Estate specialization or duplicate identity/Knowledge master.
+Generic department orchestration of workforce context, joining/leaving continuity, practical onboarding, continuous role-aware guidance and accountable coverage. Core >=0.5.7 is required; no Real Estate specialization or duplicate identity/Knowledge master.
 
 See [People skill](skills/woia-people/SKILL.md) and [contract](skills/woia-people/references/people-contract.md).
 

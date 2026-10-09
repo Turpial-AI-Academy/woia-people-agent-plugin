@@ -1,7 +1,7 @@
 # Generic People contract
 
 
-Core 0.5.6 is the only hard plugin requirement. Workforce, Identity, Communications (internal only), restricted Documents and approved Organization Knowledge resolve via organization bindings and provider qualification. Technical availability grants no business authority.
+Core 0.5.7 is the only hard plugin requirement. Workforce, Identity, Communications (internal only), restricted Documents and approved Organization Knowledge resolve via organization bindings and provider qualification. Technical availability grants no business authority.
 
 Every contribution preserves correlation, owning authority/evidence, exact scope, source/revision and allowed fields. Accepted decision and relevant effective period are required for joining/role-change/leaving; operational owners retain commitments. Filter before retrieval and response. Missing/stale/conflicting source means UNKNOWN and referral to its owner, never invented policy. Guidance identifies current approved procedure version.
 
