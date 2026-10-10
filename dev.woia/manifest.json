@@ -1,6 +1,6 @@
 {
   "schema": "dev.woia.department-orchestrator/v1",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "department": "people",
   "execution_model": "people-methodology",
   "requires_plugins": [
